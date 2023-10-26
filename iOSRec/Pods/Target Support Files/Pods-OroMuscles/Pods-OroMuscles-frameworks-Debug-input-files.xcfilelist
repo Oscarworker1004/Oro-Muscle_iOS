@@ -1,0 +1,6 @@
+${PODS_ROOT}/Target Support Files/Pods-OroMuscles/Pods-OroMuscles-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Auth0/Auth0.framework
+${BUILT_PRODUCTS_DIR}/Charts/Charts.framework
+${BUILT_PRODUCTS_DIR}/JWTDecode/JWTDecode.framework
+${BUILT_PRODUCTS_DIR}/SimpleKeychain/SimpleKeychain.framework
+${BUILT_PRODUCTS_DIR}/SwiftAlgorithms/Algorithms.framework

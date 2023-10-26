@@ -1,0 +1,1096 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C53BFC9B847E50D38126C63 /* Pods_OroMuscles_OroMusclesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 417B7C262E4762865C39C799 /* Pods_OroMuscles_OroMusclesUITests.framework */; };
+		751A4A562A426B60000A17DA /* SetupTrainingPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751A4A552A426B60000A17DA /* SetupTrainingPlan.swift */; };
+		751A4A582A426B76000A17DA /* SetupMuscleMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751A4A572A426B76000A17DA /* SetupMuscleMap.swift */; };
+		751A4A5A2A4288C1000A17DA /* SetupTrainingPlanFinished.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751A4A592A4288C1000A17DA /* SetupTrainingPlanFinished.swift */; };
+		751A4A5C2A4338ED000A17DA /* DataAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751A4A5B2A4338ED000A17DA /* DataAnalytics.swift */; };
+		751A4A5E2A4349CC000A17DA /* DataGraphs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751A4A5D2A4349CC000A17DA /* DataGraphs.swift */; };
+		751A4A602A43AD97000A17DA /* DataZones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751A4A5F2A43AD97000A17DA /* DataZones.swift */; };
+		751A4A622A43B303000A17DA /* Labeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751A4A612A43B303000A17DA /* Labeling.swift */; };
+		757F716F2A53B56900ECE438 /* SessionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757F716E2A53B56800ECE438 /* SessionInfo.swift */; };
+		75BF2A422AABA14100A3B21E /* SetupTrainingPlanReorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BF2A412AABA14100A3B21E /* SetupTrainingPlanReorder.swift */; };
+		75D955792A3F5D1100FDD83F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D955782A3F5D1100FDD83F /* AppDelegate.swift */; };
+		75D9557B2A3F5D1100FDD83F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D9557A2A3F5D1100FDD83F /* SceneDelegate.swift */; };
+		75D955802A3F5D1100FDD83F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75D9557E2A3F5D1100FDD83F /* Main.storyboard */; };
+		75D955822A3F5D1300FDD83F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75D955812A3F5D1300FDD83F /* Assets.xcassets */; };
+		75D955852A3F5D1300FDD83F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75D955832A3F5D1300FDD83F /* LaunchScreen.storyboard */; };
+		75D955902A3F5D1300FDD83F /* OroMusclesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D9558F2A3F5D1300FDD83F /* OroMusclesTests.swift */; };
+		75D9559A2A3F5D1300FDD83F /* OroMusclesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D955992A3F5D1300FDD83F /* OroMusclesUITests.swift */; };
+		75D9559C2A3F5D1300FDD83F /* OroMusclesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D9559B2A3F5D1300FDD83F /* OroMusclesUITestsLaunchTests.swift */; };
+		75D955A92A3F5E1000FDD83F /* ProjectNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D955A82A3F5E1000FDD83F /* ProjectNavigationController.swift */; };
+		75D955AD2A3F698E00FDD83F /* AccountLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D955AC2A3F698E00FDD83F /* AccountLogin.swift */; };
+		75D955AF2A3FAA8E00FDD83F /* QuickStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D955AE2A3FAA8E00FDD83F /* QuickStart.swift */; };
+		75D955B12A3FAABF00FDD83F /* SetupConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D955B02A3FAABF00FDD83F /* SetupConnection.swift */; };
+		75DB1C2E2A7DF321005B889F /* picoBluePeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DB1C2D2A7DF321005B889F /* picoBluePeripheral.swift */; };
+		75DB1C302A7DF348005B889F /* ParticlePeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DB1C2F2A7DF348005B889F /* ParticlePeripheral.swift */; };
+		75DB1C322A7E965E005B889F /* SetupBLEDeviceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DB1C312A7E965E005B889F /* SetupBLEDeviceList.swift */; };
+		75DB1C342A7E9691005B889F /* BLENextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DB1C332A7E9691005B889F /* BLENextViewController.swift */; };
+		75DB1C362A7E96EE005B889F /* SetupBLEDeviceListListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DB1C352A7E96EE005B889F /* SetupBLEDeviceListListCell.swift */; };
+		75DB1C3B2A81BF58005B889F /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DB1C3A2A81BF58005B889F /* Device.swift */; };
+		75DB1C452A854F04005B889F /* JNItopRecorder.cc in Sources */ = {isa = PBXBuildFile; fileRef = 75DB1C442A854F04005B889F /* JNItopRecorder.cc */; };
+		75DB1C522A855013005B889F /* FileParser.cc in Sources */ = {isa = PBXBuildFile; fileRef = 75DB1C492A855011005B889F /* FileParser.cc */; };
+		75DB1C532A855013005B889F /* Config.cc in Sources */ = {isa = PBXBuildFile; fileRef = 75DB1C4B2A855012005B889F /* Config.cc */; };
+		75DB1C542A855013005B889F /* StringUtil.cc in Sources */ = {isa = PBXBuildFile; fileRef = 75DB1C4E2A855012005B889F /* StringUtil.cc */; };
+		75DB1C552A855013005B889F /* ErrorHandling.cc in Sources */ = {isa = PBXBuildFile; fileRef = 75DB1C502A855012005B889F /* ErrorHandling.cc */; };
+		75DB1C582A855033005B889F /* mutil.cc in Sources */ = {isa = PBXBuildFile; fileRef = 75DB1C562A855033005B889F /* mutil.cc */; };
+		75DB1C632A85506C005B889F /* USBReader.cc in Sources */ = {isa = PBXBuildFile; fileRef = 75DB1C5A2A85506B005B889F /* USBReader.cc */; };
+		75DB1C642A85506C005B889F /* Filters.cc in Sources */ = {isa = PBXBuildFile; fileRef = 75DB1C5B2A85506B005B889F /* Filters.cc */; };
+		75DB1C652A85506C005B889F /* Smooth.cc in Sources */ = {isa = PBXBuildFile; fileRef = 75DB1C5C2A85506B005B889F /* Smooth.cc */; };
+		75DB1C672A85506C005B889F /* Bin2CSV.cc in Sources */ = {isa = PBXBuildFile; fileRef = 75DB1C622A85506C005B889F /* Bin2CSV.cc */; };
+		75DB1C6A2A855090005B889F /* filter.cc in Sources */ = {isa = PBXBuildFile; fileRef = 75DB1C692A85508F005B889F /* filter.cc */; };
+		75DB1C6D2A8550C4005B889F /* attitude_estimator.cc in Sources */ = {isa = PBXBuildFile; fileRef = 75DB1C6B2A8550C4005B889F /* attitude_estimator.cc */; };
+		75DB1C702A8550D8005B889F /* Rotation.cc in Sources */ = {isa = PBXBuildFile; fileRef = 75DB1C6F2A8550D8005B889F /* Rotation.cc */; };
+		75DB1C732A8550E6005B889F /* UnivData.cc in Sources */ = {isa = PBXBuildFile; fileRef = 75DB1C712A8550E6005B889F /* UnivData.cc */; };
+		75DB1C7C2A8574B2005B889F /* Processes.cc in Sources */ = {isa = PBXBuildFile; fileRef = 75DB1C7A2A8574B2005B889F /* Processes.cc */; };
+		75DB1C7F2A8574FF005B889F /* VideoWrap.cc in Sources */ = {isa = PBXBuildFile; fileRef = 75DB1C7D2A8574FF005B889F /* VideoWrap.cc */; };
+		75DB1C822A857825005B889F /* Log.cc in Sources */ = {isa = PBXBuildFile; fileRef = 75DB1C802A857825005B889F /* Log.cc */; };
+		75DB1C852A8581C7005B889F /* RecordCtrl.cc in Sources */ = {isa = PBXBuildFile; fileRef = 75DB1C842A8581C7005B889F /* RecordCtrl.cc */; };
+		75DB1C982A85CB0D005B889F /* CTopRecorder2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75DB1C962A85CB0C005B889F /* CTopRecorder2.cpp */; };
+		75DB1C9D2A85EF92005B889F /* CTop_Wrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 75DB1C932A85C2CE005B889F /* CTop_Wrapper.mm */; };
+		75DB1CA02A9EBC1F005B889F /* RMSAnalyze.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DB1C9F2A9EBC1F005B889F /* RMSAnalyze.swift */; };
+		75E37D3A2A618A4D0096AD88 /* Auth0 in Frameworks */ = {isa = PBXBuildFile; productRef = 75E37D392A618A4D0096AD88 /* Auth0 */; };
+		75E37D3D2A61ADDC0096AD88 /* Auth0.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75E37D3B2A618E560096AD88 /* Auth0.plist */; };
+		75E37D3F2A61D24C0096AD88 /* ExerciseInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E37D3E2A61D24C0096AD88 /* ExerciseInfo.swift */; };
+		75E37D412A6981290096AD88 /* Athlete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E37D402A6981290096AD88 /* Athlete.swift */; };
+		75E37D432A6982260096AD88 /* Recording.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E37D422A6982260096AD88 /* Recording.swift */; };
+		75E37D452A6982720096AD88 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E37D442A6982720096AD88 /* Project.swift */; };
+		75E37D472A699CE70096AD88 /* CurrentUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E37D462A699CE70096AD88 /* CurrentUser.swift */; };
+		75E37D4B2A699E220096AD88 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E37D4A2A699E220096AD88 /* Workout.swift */; };
+		75E37D4D2A69B97B0096AD88 /* MuscleInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E37D4C2A69B97B0096AD88 /* MuscleInfo.swift */; };
+		75E37D4F2A69C1FB0096AD88 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E37D4E2A69C1FB0096AD88 /* Team.swift */; };
+		96B6CCA92AD11668007A4D57 /* DataThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B6CCA82AD11668007A4D57 /* DataThread.swift */; };
+		D0475F5EB70D0C021C0789BE /* Pods_OroMuscles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E0256385193FDDC6F75C30C /* Pods_OroMuscles.framework */; };
+		FE3F90788E0ECB78D11A96C8 /* Pods_OroMusclesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80686020C6B2670A9CB804F9 /* Pods_OroMusclesTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75D9558C2A3F5D1300FDD83F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75D9556D2A3F5D1100FDD83F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75D955742A3F5D1100FDD83F;
+			remoteInfo = OroMuscles;
+		};
+		75D955962A3F5D1300FDD83F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75D9556D2A3F5D1100FDD83F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75D955742A3F5D1100FDD83F;
+			remoteInfo = OroMuscles;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E0256385193FDDC6F75C30C /* Pods_OroMuscles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OroMuscles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		417B7C262E4762865C39C799 /* Pods_OroMuscles_OroMusclesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OroMuscles_OroMusclesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4837B76F96FF41E0559C73DC /* Pods-OroMuscles.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OroMuscles.debug.xcconfig"; path = "Target Support Files/Pods-OroMuscles/Pods-OroMuscles.debug.xcconfig"; sourceTree = "<group>"; };
+		6104A8B85798E2BB6A8D0522 /* Pods-OroMuscles-OroMusclesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OroMuscles-OroMusclesUITests.release.xcconfig"; path = "Target Support Files/Pods-OroMuscles-OroMusclesUITests/Pods-OroMuscles-OroMusclesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		62015F09B511029A47515F71 /* Pods-OroMuscles-OroMusclesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OroMuscles-OroMusclesUITests.debug.xcconfig"; path = "Target Support Files/Pods-OroMuscles-OroMusclesUITests/Pods-OroMuscles-OroMusclesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		751A4A552A426B60000A17DA /* SetupTrainingPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupTrainingPlan.swift; sourceTree = "<group>"; };
+		751A4A572A426B76000A17DA /* SetupMuscleMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupMuscleMap.swift; sourceTree = "<group>"; };
+		751A4A592A4288C1000A17DA /* SetupTrainingPlanFinished.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupTrainingPlanFinished.swift; sourceTree = "<group>"; };
+		751A4A5B2A4338ED000A17DA /* DataAnalytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAnalytics.swift; sourceTree = "<group>"; };
+		751A4A5D2A4349CC000A17DA /* DataGraphs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataGraphs.swift; sourceTree = "<group>"; };
+		751A4A5F2A43AD97000A17DA /* DataZones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataZones.swift; sourceTree = "<group>"; };
+		751A4A612A43B303000A17DA /* Labeling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Labeling.swift; sourceTree = "<group>"; };
+		75533936A5A142EA97215E78 /* Pods-OroMuscles.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OroMuscles.release.xcconfig"; path = "Target Support Files/Pods-OroMuscles/Pods-OroMuscles.release.xcconfig"; sourceTree = "<group>"; };
+		757F716E2A53B56800ECE438 /* SessionInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionInfo.swift; sourceTree = "<group>"; };
+		75BF2A412AABA14100A3B21E /* SetupTrainingPlanReorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupTrainingPlanReorder.swift; sourceTree = "<group>"; };
+		75D955752A3F5D1100FDD83F /* OroMuscles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OroMuscles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75D955782A3F5D1100FDD83F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		75D9557A2A3F5D1100FDD83F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		75D9557F2A3F5D1100FDD83F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75D955812A3F5D1300FDD83F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75D955842A3F5D1300FDD83F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75D955862A3F5D1300FDD83F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75D9558B2A3F5D1300FDD83F /* OroMusclesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OroMusclesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75D9558F2A3F5D1300FDD83F /* OroMusclesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OroMusclesTests.swift; sourceTree = "<group>"; };
+		75D955952A3F5D1300FDD83F /* OroMusclesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OroMusclesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75D955992A3F5D1300FDD83F /* OroMusclesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OroMusclesUITests.swift; sourceTree = "<group>"; };
+		75D9559B2A3F5D1300FDD83F /* OroMusclesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OroMusclesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		75D955A82A3F5E1000FDD83F /* ProjectNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectNavigationController.swift; sourceTree = "<group>"; };
+		75D955AC2A3F698E00FDD83F /* AccountLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountLogin.swift; sourceTree = "<group>"; };
+		75D955AE2A3FAA8E00FDD83F /* QuickStart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickStart.swift; sourceTree = "<group>"; };
+		75D955B02A3FAABF00FDD83F /* SetupConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupConnection.swift; sourceTree = "<group>"; };
+		75DB1C2D2A7DF321005B889F /* picoBluePeripheral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = picoBluePeripheral.swift; sourceTree = "<group>"; };
+		75DB1C2F2A7DF348005B889F /* ParticlePeripheral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticlePeripheral.swift; sourceTree = "<group>"; };
+		75DB1C312A7E965E005B889F /* SetupBLEDeviceList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupBLEDeviceList.swift; sourceTree = "<group>"; };
+		75DB1C332A7E9691005B889F /* BLENextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLENextViewController.swift; sourceTree = "<group>"; };
+		75DB1C352A7E96EE005B889F /* SetupBLEDeviceListListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupBLEDeviceListListCell.swift; sourceTree = "<group>"; };
+		75DB1C392A7E9868005B889F /* BLESetup.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; name = BLESetup.entitlements; path = ../../BLESetup/BLESetup.entitlements; sourceTree = "<group>"; };
+		75DB1C3A2A81BF58005B889F /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		75DB1C442A854F04005B889F /* JNItopRecorder.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JNItopRecorder.cc; sourceTree = "<group>"; };
+		75DB1C462A854F6C005B889F /* RecordCtrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecordCtrl.h; sourceTree = "<group>"; };
+		75DB1C482A855011005B889F /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		75DB1C492A855011005B889F /* FileParser.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FileParser.cc; sourceTree = "<group>"; };
+		75DB1C4B2A855012005B889F /* Config.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Config.cc; sourceTree = "<group>"; };
+		75DB1C4C2A855012005B889F /* FileParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileParser.h; sourceTree = "<group>"; };
+		75DB1C4D2A855012005B889F /* ErrorHandling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErrorHandling.h; sourceTree = "<group>"; };
+		75DB1C4E2A855012005B889F /* StringUtil.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StringUtil.cc; sourceTree = "<group>"; };
+		75DB1C4F2A855012005B889F /* StringUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringUtil.h; sourceTree = "<group>"; };
+		75DB1C502A855012005B889F /* ErrorHandling.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ErrorHandling.cc; sourceTree = "<group>"; };
+		75DB1C562A855033005B889F /* mutil.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mutil.cc; sourceTree = "<group>"; };
+		75DB1C572A855033005B889F /* mutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mutil.h; sourceTree = "<group>"; };
+		75DB1C592A85506B005B889F /* USBReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USBReader.h; sourceTree = "<group>"; };
+		75DB1C5A2A85506B005B889F /* USBReader.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = USBReader.cc; sourceTree = "<group>"; };
+		75DB1C5B2A85506B005B889F /* Filters.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Filters.cc; sourceTree = "<group>"; };
+		75DB1C5C2A85506B005B889F /* Smooth.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Smooth.cc; sourceTree = "<group>"; };
+		75DB1C5D2A85506B005B889F /* Smooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Smooth.h; sourceTree = "<group>"; };
+		75DB1C602A85506C005B889F /* Bin2CSV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bin2CSV.h; sourceTree = "<group>"; };
+		75DB1C612A85506C005B889F /* Filters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Filters.h; sourceTree = "<group>"; };
+		75DB1C622A85506C005B889F /* Bin2CSV.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bin2CSV.cc; sourceTree = "<group>"; };
+		75DB1C682A85508F005B889F /* filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = filter.h; sourceTree = "<group>"; };
+		75DB1C692A85508F005B889F /* filter.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = filter.cc; sourceTree = "<group>"; };
+		75DB1C6B2A8550C4005B889F /* attitude_estimator.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = attitude_estimator.cc; sourceTree = "<group>"; };
+		75DB1C6C2A8550C4005B889F /* attitude_estimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = attitude_estimator.h; sourceTree = "<group>"; };
+		75DB1C6E2A8550D8005B889F /* Rotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rotation.h; sourceTree = "<group>"; };
+		75DB1C6F2A8550D8005B889F /* Rotation.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Rotation.cc; sourceTree = "<group>"; };
+		75DB1C712A8550E6005B889F /* UnivData.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UnivData.cc; sourceTree = "<group>"; };
+		75DB1C722A8550E6005B889F /* UnivData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnivData.h; sourceTree = "<group>"; };
+		75DB1C742A85552A005B889F /* SVector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVector.h; sourceTree = "<group>"; };
+		75DB1C752A85586D005B889F /* Reporting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reporting.h; sourceTree = "<group>"; };
+		75DB1C762A855979005B889F /* jni.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jni.h; sourceTree = "<group>"; };
+		75DB1C7A2A8574B2005B889F /* Processes.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Processes.cc; sourceTree = "<group>"; };
+		75DB1C7B2A8574B2005B889F /* Processes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processes.h; sourceTree = "<group>"; };
+		75DB1C7D2A8574FF005B889F /* VideoWrap.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VideoWrap.cc; sourceTree = "<group>"; };
+		75DB1C7E2A8574FF005B889F /* VideoWrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoWrap.h; sourceTree = "<group>"; };
+		75DB1C802A857825005B889F /* Log.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Log.cc; sourceTree = "<group>"; };
+		75DB1C812A857825005B889F /* Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Log.h; sourceTree = "<group>"; };
+		75DB1C832A8578A3005B889F /* com_digidactylus_recorder_JNIWrapRec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = com_digidactylus_recorder_JNIWrapRec.h; sourceTree = "<group>"; };
+		75DB1C842A8581C7005B889F /* RecordCtrl.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RecordCtrl.cc; sourceTree = "<group>"; };
+		75DB1C932A85C2CE005B889F /* CTop_Wrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CTop_Wrapper.mm; sourceTree = "<group>"; };
+		75DB1C952A85C2E3005B889F /* CTop_Wrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTop_Wrapper.h; sourceTree = "<group>"; };
+		75DB1C962A85CB0C005B889F /* CTopRecorder2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CTopRecorder2.cpp; sourceTree = "<group>"; };
+		75DB1C972A85CB0C005B889F /* CTopRecorder2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CTopRecorder2.hpp; sourceTree = "<group>"; };
+		75DB1C992A85D8EE005B889F /* OroMuscles-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OroMuscles-Bridging-Header.h"; sourceTree = "<group>"; };
+		75DB1C9F2A9EBC1F005B889F /* RMSAnalyze.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMSAnalyze.swift; sourceTree = "<group>"; };
+		75E37D3B2A618E560096AD88 /* Auth0.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Auth0.plist; sourceTree = "<group>"; };
+		75E37D3E2A61D24C0096AD88 /* ExerciseInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseInfo.swift; sourceTree = "<group>"; };
+		75E37D402A6981290096AD88 /* Athlete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Athlete.swift; sourceTree = "<group>"; };
+		75E37D422A6982260096AD88 /* Recording.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recording.swift; sourceTree = "<group>"; };
+		75E37D442A6982720096AD88 /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		75E37D462A699CE70096AD88 /* CurrentUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUser.swift; sourceTree = "<group>"; };
+		75E37D4A2A699E220096AD88 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		75E37D4C2A69B97B0096AD88 /* MuscleInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleInfo.swift; sourceTree = "<group>"; };
+		75E37D4E2A69C1FB0096AD88 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		80686020C6B2670A9CB804F9 /* Pods_OroMusclesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OroMusclesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88E940DBC98EB41D49B54FD9 /* Pods-OroMusclesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OroMusclesTests.release.xcconfig"; path = "Target Support Files/Pods-OroMusclesTests/Pods-OroMusclesTests.release.xcconfig"; sourceTree = "<group>"; };
+		96B6CCA82AD11668007A4D57 /* DataThread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataThread.swift; sourceTree = "<group>"; };
+		AA1C720427B5CB63B3E092B7 /* Pods-OroMusclesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OroMusclesTests.debug.xcconfig"; path = "Target Support Files/Pods-OroMusclesTests/Pods-OroMusclesTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75D955722A3F5D1100FDD83F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0475F5EB70D0C021C0789BE /* Pods_OroMuscles.framework in Frameworks */,
+				75E37D3A2A618A4D0096AD88 /* Auth0 in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75D955882A3F5D1300FDD83F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE3F90788E0ECB78D11A96C8 /* Pods_OroMusclesTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75D955922A3F5D1300FDD83F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C53BFC9B847E50D38126C63 /* Pods_OroMuscles_OroMusclesUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BDD247BCA2DE116A2911339 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E0256385193FDDC6F75C30C /* Pods_OroMuscles.framework */,
+				417B7C262E4762865C39C799 /* Pods_OroMuscles_OroMusclesUITests.framework */,
+				80686020C6B2670A9CB804F9 /* Pods_OroMusclesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		28430DB30CA5056645881C0A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4837B76F96FF41E0559C73DC /* Pods-OroMuscles.debug.xcconfig */,
+				75533936A5A142EA97215E78 /* Pods-OroMuscles.release.xcconfig */,
+				62015F09B511029A47515F71 /* Pods-OroMuscles-OroMusclesUITests.debug.xcconfig */,
+				6104A8B85798E2BB6A8D0522 /* Pods-OroMuscles-OroMusclesUITests.release.xcconfig */,
+				AA1C720427B5CB63B3E092B7 /* Pods-OroMusclesTests.debug.xcconfig */,
+				88E940DBC98EB41D49B54FD9 /* Pods-OroMusclesTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		75D9556C2A3F5D1100FDD83F = {
+			isa = PBXGroup;
+			children = (
+				75D955772A3F5D1100FDD83F /* OroMuscles */,
+				75D9558E2A3F5D1300FDD83F /* OroMusclesTests */,
+				75D955982A3F5D1300FDD83F /* OroMusclesUITests */,
+				75D955762A3F5D1100FDD83F /* Products */,
+				28430DB30CA5056645881C0A /* Pods */,
+				1BDD247BCA2DE116A2911339 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		75D955762A3F5D1100FDD83F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75D955752A3F5D1100FDD83F /* OroMuscles.app */,
+				75D9558B2A3F5D1300FDD83F /* OroMusclesTests.xctest */,
+				75D955952A3F5D1300FDD83F /* OroMusclesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75D955772A3F5D1100FDD83F /* OroMuscles */ = {
+			isa = PBXGroup;
+			children = (
+				75DB1C392A7E9868005B889F /* BLESetup.entitlements */,
+				75D955782A3F5D1100FDD83F /* AppDelegate.swift */,
+				75D9557A2A3F5D1100FDD83F /* SceneDelegate.swift */,
+				75D9557E2A3F5D1100FDD83F /* Main.storyboard */,
+				75D955812A3F5D1300FDD83F /* Assets.xcassets */,
+				75D955832A3F5D1300FDD83F /* LaunchScreen.storyboard */,
+				75D955862A3F5D1300FDD83F /* Info.plist */,
+				75E37D3B2A618E560096AD88 /* Auth0.plist */,
+				75E37D492A699DA70096AD88 /* ViewControllers */,
+				75E37D482A699D8C0096AD88 /* Objects */,
+				75DB1C3C2A853ED7005B889F /* DataDecipher */,
+				75DB1C2C2A7DF1C8005B889F /* BLE */,
+			);
+			path = OroMuscles;
+			sourceTree = "<group>";
+		};
+		75D9558E2A3F5D1300FDD83F /* OroMusclesTests */ = {
+			isa = PBXGroup;
+			children = (
+				75D9558F2A3F5D1300FDD83F /* OroMusclesTests.swift */,
+			);
+			path = OroMusclesTests;
+			sourceTree = "<group>";
+		};
+		75D955982A3F5D1300FDD83F /* OroMusclesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				75D955992A3F5D1300FDD83F /* OroMusclesUITests.swift */,
+				75D9559B2A3F5D1300FDD83F /* OroMusclesUITestsLaunchTests.swift */,
+			);
+			path = OroMusclesUITests;
+			sourceTree = "<group>";
+		};
+		75DB1C2C2A7DF1C8005B889F /* BLE */ = {
+			isa = PBXGroup;
+			children = (
+				75DB1C332A7E9691005B889F /* BLENextViewController.swift */,
+			);
+			path = BLE;
+			sourceTree = "<group>";
+		};
+		75DB1C3C2A853ED7005B889F /* DataDecipher */ = {
+			isa = PBXGroup;
+			children = (
+				75DB1C442A854F04005B889F /* JNItopRecorder.cc */,
+				75DB1C762A855979005B889F /* jni.h */,
+				75DB1C832A8578A3005B889F /* com_digidactylus_recorder_JNIWrapRec.h */,
+				75DB1C462A854F6C005B889F /* RecordCtrl.h */,
+				75DB1C842A8581C7005B889F /* RecordCtrl.cc */,
+				75DB1C482A855011005B889F /* Config.h */,
+				75DB1C4B2A855012005B889F /* Config.cc */,
+				75DB1C4D2A855012005B889F /* ErrorHandling.h */,
+				75DB1C502A855012005B889F /* ErrorHandling.cc */,
+				75DB1C4C2A855012005B889F /* FileParser.h */,
+				75DB1C492A855011005B889F /* FileParser.cc */,
+				75DB1C4F2A855012005B889F /* StringUtil.h */,
+				75DB1C4E2A855012005B889F /* StringUtil.cc */,
+				75DB1C572A855033005B889F /* mutil.h */,
+				75DB1C562A855033005B889F /* mutil.cc */,
+				75DB1C602A85506C005B889F /* Bin2CSV.h */,
+				75DB1C622A85506C005B889F /* Bin2CSV.cc */,
+				75DB1C612A85506C005B889F /* Filters.h */,
+				75DB1C5B2A85506B005B889F /* Filters.cc */,
+				75DB1C812A857825005B889F /* Log.h */,
+				75DB1C802A857825005B889F /* Log.cc */,
+				75DB1C5D2A85506B005B889F /* Smooth.h */,
+				75DB1C5C2A85506B005B889F /* Smooth.cc */,
+				75DB1C592A85506B005B889F /* USBReader.h */,
+				75DB1C5A2A85506B005B889F /* USBReader.cc */,
+				75DB1C7E2A8574FF005B889F /* VideoWrap.h */,
+				75DB1C7D2A8574FF005B889F /* VideoWrap.cc */,
+				75DB1C682A85508F005B889F /* filter.h */,
+				75DB1C692A85508F005B889F /* filter.cc */,
+				75DB1C6C2A8550C4005B889F /* attitude_estimator.h */,
+				75DB1C6B2A8550C4005B889F /* attitude_estimator.cc */,
+				75DB1C6E2A8550D8005B889F /* Rotation.h */,
+				75DB1C6F2A8550D8005B889F /* Rotation.cc */,
+				75DB1C722A8550E6005B889F /* UnivData.h */,
+				75DB1C712A8550E6005B889F /* UnivData.cc */,
+				75DB1C7B2A8574B2005B889F /* Processes.h */,
+				75DB1C7A2A8574B2005B889F /* Processes.cc */,
+				75DB1C752A85586D005B889F /* Reporting.h */,
+				75DB1C742A85552A005B889F /* SVector.h */,
+				75DB1C932A85C2CE005B889F /* CTop_Wrapper.mm */,
+				75DB1C952A85C2E3005B889F /* CTop_Wrapper.h */,
+				75DB1C962A85CB0C005B889F /* CTopRecorder2.cpp */,
+				75DB1C972A85CB0C005B889F /* CTopRecorder2.hpp */,
+				75DB1C992A85D8EE005B889F /* OroMuscles-Bridging-Header.h */,
+			);
+			path = DataDecipher;
+			sourceTree = "<group>";
+		};
+		75E37D482A699D8C0096AD88 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				757F716E2A53B56800ECE438 /* SessionInfo.swift */,
+				75E37D3E2A61D24C0096AD88 /* ExerciseInfo.swift */,
+				75E37D4E2A69C1FB0096AD88 /* Team.swift */,
+				75E37D402A6981290096AD88 /* Athlete.swift */,
+				75E37D422A6982260096AD88 /* Recording.swift */,
+				75E37D442A6982720096AD88 /* Project.swift */,
+				75E37D462A699CE70096AD88 /* CurrentUser.swift */,
+				75E37D4A2A699E220096AD88 /* Workout.swift */,
+				75E37D4C2A69B97B0096AD88 /* MuscleInfo.swift */,
+				75DB1C3A2A81BF58005B889F /* Device.swift */,
+				75DB1C2D2A7DF321005B889F /* picoBluePeripheral.swift */,
+				75DB1C2F2A7DF348005B889F /* ParticlePeripheral.swift */,
+				75DB1C9F2A9EBC1F005B889F /* RMSAnalyze.swift */,
+				96B6CCA82AD11668007A4D57 /* DataThread.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		75E37D492A699DA70096AD88 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				75D955A82A3F5E1000FDD83F /* ProjectNavigationController.swift */,
+				75D955AC2A3F698E00FDD83F /* AccountLogin.swift */,
+				75D955AE2A3FAA8E00FDD83F /* QuickStart.swift */,
+				75D955B02A3FAABF00FDD83F /* SetupConnection.swift */,
+				75DB1C312A7E965E005B889F /* SetupBLEDeviceList.swift */,
+				75DB1C352A7E96EE005B889F /* SetupBLEDeviceListListCell.swift */,
+				751A4A552A426B60000A17DA /* SetupTrainingPlan.swift */,
+				751A4A592A4288C1000A17DA /* SetupTrainingPlanFinished.swift */,
+				75BF2A412AABA14100A3B21E /* SetupTrainingPlanReorder.swift */,
+				751A4A572A426B76000A17DA /* SetupMuscleMap.swift */,
+				751A4A5B2A4338ED000A17DA /* DataAnalytics.swift */,
+				751A4A5F2A43AD97000A17DA /* DataZones.swift */,
+				751A4A5D2A4349CC000A17DA /* DataGraphs.swift */,
+				751A4A612A43B303000A17DA /* Labeling.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75D955742A3F5D1100FDD83F /* OroMuscles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75D9559F2A3F5D1300FDD83F /* Build configuration list for PBXNativeTarget "OroMuscles" */;
+			buildPhases = (
+				E90F110100E31E4716FEF0AA /* [CP] Check Pods Manifest.lock */,
+				75D955712A3F5D1100FDD83F /* Sources */,
+				75D955722A3F5D1100FDD83F /* Frameworks */,
+				75D955732A3F5D1100FDD83F /* Resources */,
+				FFE634126930A48FD69196D2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OroMuscles;
+			packageProductDependencies = (
+				75E37D392A618A4D0096AD88 /* Auth0 */,
+			);
+			productName = OroMuscles;
+			productReference = 75D955752A3F5D1100FDD83F /* OroMuscles.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75D9558A2A3F5D1300FDD83F /* OroMusclesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75D955A22A3F5D1300FDD83F /* Build configuration list for PBXNativeTarget "OroMusclesTests" */;
+			buildPhases = (
+				C25EE8A328A328247F142B82 /* [CP] Check Pods Manifest.lock */,
+				75D955872A3F5D1300FDD83F /* Sources */,
+				75D955882A3F5D1300FDD83F /* Frameworks */,
+				75D955892A3F5D1300FDD83F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75D9558D2A3F5D1300FDD83F /* PBXTargetDependency */,
+			);
+			name = OroMusclesTests;
+			productName = OroMusclesTests;
+			productReference = 75D9558B2A3F5D1300FDD83F /* OroMusclesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		75D955942A3F5D1300FDD83F /* OroMusclesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75D955A52A3F5D1300FDD83F /* Build configuration list for PBXNativeTarget "OroMusclesUITests" */;
+			buildPhases = (
+				326C66613F293720EF023F9D /* [CP] Check Pods Manifest.lock */,
+				75D955912A3F5D1300FDD83F /* Sources */,
+				75D955922A3F5D1300FDD83F /* Frameworks */,
+				75D955932A3F5D1300FDD83F /* Resources */,
+				00BA8AA3FAFFEFB25663550D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75D955972A3F5D1300FDD83F /* PBXTargetDependency */,
+			);
+			name = OroMusclesUITests;
+			productName = OroMusclesUITests;
+			productReference = 75D955952A3F5D1300FDD83F /* OroMusclesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75D9556D2A3F5D1100FDD83F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					75D955742A3F5D1100FDD83F = {
+						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1430;
+					};
+					75D9558A2A3F5D1300FDD83F = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 75D955742A3F5D1100FDD83F;
+					};
+					75D955942A3F5D1300FDD83F = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 75D955742A3F5D1100FDD83F;
+					};
+				};
+			};
+			buildConfigurationList = 75D955702A3F5D1100FDD83F /* Build configuration list for PBXProject "OroMuscles" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75D9556C2A3F5D1100FDD83F;
+			packageReferences = (
+				75E37D382A618A4D0096AD88 /* XCRemoteSwiftPackageReference "Auth0" */,
+			);
+			productRefGroup = 75D955762A3F5D1100FDD83F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75D955742A3F5D1100FDD83F /* OroMuscles */,
+				75D9558A2A3F5D1300FDD83F /* OroMusclesTests */,
+				75D955942A3F5D1300FDD83F /* OroMusclesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75D955732A3F5D1100FDD83F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E37D3D2A61ADDC0096AD88 /* Auth0.plist in Resources */,
+				75D955852A3F5D1300FDD83F /* LaunchScreen.storyboard in Resources */,
+				75D955822A3F5D1300FDD83F /* Assets.xcassets in Resources */,
+				75D955802A3F5D1100FDD83F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75D955892A3F5D1300FDD83F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75D955932A3F5D1300FDD83F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00BA8AA3FAFFEFB25663550D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OroMuscles-OroMusclesUITests/Pods-OroMuscles-OroMusclesUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OroMuscles-OroMusclesUITests/Pods-OroMuscles-OroMusclesUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OroMuscles-OroMusclesUITests/Pods-OroMuscles-OroMusclesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		326C66613F293720EF023F9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OroMuscles-OroMusclesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C25EE8A328A328247F142B82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OroMusclesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E90F110100E31E4716FEF0AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OroMuscles-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFE634126930A48FD69196D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OroMuscles/Pods-OroMuscles-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OroMuscles/Pods-OroMuscles-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OroMuscles/Pods-OroMuscles-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75D955712A3F5D1100FDD83F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				751A4A5A2A4288C1000A17DA /* SetupTrainingPlanFinished.swift in Sources */,
+				75DB1C542A855013005B889F /* StringUtil.cc in Sources */,
+				75DB1C852A8581C7005B889F /* RecordCtrl.cc in Sources */,
+				75DB1C322A7E965E005B889F /* SetupBLEDeviceList.swift in Sources */,
+				75DB1C7F2A8574FF005B889F /* VideoWrap.cc in Sources */,
+				75DB1C582A855033005B889F /* mutil.cc in Sources */,
+				75DB1C522A855013005B889F /* FileParser.cc in Sources */,
+				75D955792A3F5D1100FDD83F /* AppDelegate.swift in Sources */,
+				75DB1C732A8550E6005B889F /* UnivData.cc in Sources */,
+				75DB1C2E2A7DF321005B889F /* picoBluePeripheral.swift in Sources */,
+				75DB1C302A7DF348005B889F /* ParticlePeripheral.swift in Sources */,
+				75D955A92A3F5E1000FDD83F /* ProjectNavigationController.swift in Sources */,
+				75E37D4B2A699E220096AD88 /* Workout.swift in Sources */,
+				75E37D432A6982260096AD88 /* Recording.swift in Sources */,
+				75E37D472A699CE70096AD88 /* CurrentUser.swift in Sources */,
+				75D9557B2A3F5D1100FDD83F /* SceneDelegate.swift in Sources */,
+				75DB1C702A8550D8005B889F /* Rotation.cc in Sources */,
+				75D955B12A3FAABF00FDD83F /* SetupConnection.swift in Sources */,
+				75DB1CA02A9EBC1F005B889F /* RMSAnalyze.swift in Sources */,
+				75E37D4F2A69C1FB0096AD88 /* Team.swift in Sources */,
+				75D955AD2A3F698E00FDD83F /* AccountLogin.swift in Sources */,
+				75DB1C6D2A8550C4005B889F /* attitude_estimator.cc in Sources */,
+				75BF2A422AABA14100A3B21E /* SetupTrainingPlanReorder.swift in Sources */,
+				751A4A562A426B60000A17DA /* SetupTrainingPlan.swift in Sources */,
+				75DB1C6A2A855090005B889F /* filter.cc in Sources */,
+				75DB1C362A7E96EE005B889F /* SetupBLEDeviceListListCell.swift in Sources */,
+				751A4A5C2A4338ED000A17DA /* DataAnalytics.swift in Sources */,
+				75DB1C672A85506C005B889F /* Bin2CSV.cc in Sources */,
+				75DB1C552A855013005B889F /* ErrorHandling.cc in Sources */,
+				75E37D4D2A69B97B0096AD88 /* MuscleInfo.swift in Sources */,
+				75DB1C822A857825005B889F /* Log.cc in Sources */,
+				75DB1C532A855013005B889F /* Config.cc in Sources */,
+				75DB1C452A854F04005B889F /* JNItopRecorder.cc in Sources */,
+				75E37D452A6982720096AD88 /* Project.swift in Sources */,
+				75DB1C642A85506C005B889F /* Filters.cc in Sources */,
+				75D955AF2A3FAA8E00FDD83F /* QuickStart.swift in Sources */,
+				75DB1C3B2A81BF58005B889F /* Device.swift in Sources */,
+				757F716F2A53B56900ECE438 /* SessionInfo.swift in Sources */,
+				751A4A582A426B76000A17DA /* SetupMuscleMap.swift in Sources */,
+				75DB1C7C2A8574B2005B889F /* Processes.cc in Sources */,
+				75DB1C632A85506C005B889F /* USBReader.cc in Sources */,
+				75E37D3F2A61D24C0096AD88 /* ExerciseInfo.swift in Sources */,
+				751A4A622A43B303000A17DA /* Labeling.swift in Sources */,
+				75DB1C652A85506C005B889F /* Smooth.cc in Sources */,
+				751A4A5E2A4349CC000A17DA /* DataGraphs.swift in Sources */,
+				75DB1C342A7E9691005B889F /* BLENextViewController.swift in Sources */,
+				751A4A602A43AD97000A17DA /* DataZones.swift in Sources */,
+				75E37D412A6981290096AD88 /* Athlete.swift in Sources */,
+				75DB1C982A85CB0D005B889F /* CTopRecorder2.cpp in Sources */,
+				75DB1C9D2A85EF92005B889F /* CTop_Wrapper.mm in Sources */,
+				96B6CCA92AD11668007A4D57 /* DataThread.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75D955872A3F5D1300FDD83F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D955902A3F5D1300FDD83F /* OroMusclesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75D955912A3F5D1300FDD83F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D9559C2A3F5D1300FDD83F /* OroMusclesUITestsLaunchTests.swift in Sources */,
+				75D9559A2A3F5D1300FDD83F /* OroMusclesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75D9558D2A3F5D1300FDD83F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75D955742A3F5D1100FDD83F /* OroMuscles */;
+			targetProxy = 75D9558C2A3F5D1300FDD83F /* PBXContainerItemProxy */;
+		};
+		75D955972A3F5D1300FDD83F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75D955742A3F5D1100FDD83F /* OroMuscles */;
+			targetProxy = 75D955962A3F5D1300FDD83F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75D9557E2A3F5D1100FDD83F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75D9557F2A3F5D1100FDD83F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75D955832A3F5D1300FDD83F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75D955842A3F5D1300FDD83F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75D9559D2A3F5D1300FDD83F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75D9559E2A3F5D1300FDD83F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75D955A02A3F5D1300FDD83F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4837B76F96FF41E0559C73DC /* Pods-OroMuscles.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentOrange;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 11;
+				DEVELOPMENT_TEAM = HP59GWPM5R;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OroMuscles/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OroMuscles;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "App uses Bluetooth to connect to the Nearby devices";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "App uses Bluetooth to connect to the Nearby devices";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Your image is safe.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = AccountLogin;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OnTrackApps.OroMuscles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/siversolutionsllc/Desktop/Clients/OroMuscles/Codebases/oromuscles/iOSRec/OroMuscles/DataDecipher/OroMuscles-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75D955A12A3F5D1300FDD83F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75533936A5A142EA97215E78 /* Pods-OroMuscles.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentOrange;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 11;
+				DEVELOPMENT_TEAM = HP59GWPM5R;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OroMuscles/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OroMuscles;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "App uses Bluetooth to connect to the Nearby devices";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "App uses Bluetooth to connect to the Nearby devices";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Your image is safe.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = AccountLogin;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OnTrackApps.OroMuscles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/siversolutionsllc/Desktop/Clients/OroMuscles/Codebases/oromuscles/iOSRec/OroMuscles/DataDecipher/OroMuscles-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		75D955A32A3F5D1300FDD83F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA1C720427B5CB63B3E092B7 /* Pods-OroMusclesTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F686254L7T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OnTrackApps.OroMuscles.OroMusclesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OroMuscles.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OroMuscles";
+			};
+			name = Debug;
+		};
+		75D955A42A3F5D1300FDD83F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88E940DBC98EB41D49B54FD9 /* Pods-OroMusclesTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F686254L7T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OnTrackApps.OroMuscles.OroMusclesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OroMuscles.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OroMuscles";
+			};
+			name = Release;
+		};
+		75D955A62A3F5D1300FDD83F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62015F09B511029A47515F71 /* Pods-OroMuscles-OroMusclesUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F686254L7T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OnTrackApps.OroMuscles.OroMusclesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OroMuscles;
+			};
+			name = Debug;
+		};
+		75D955A72A3F5D1300FDD83F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6104A8B85798E2BB6A8D0522 /* Pods-OroMuscles-OroMusclesUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F686254L7T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OnTrackApps.OroMuscles.OroMusclesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OroMuscles;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75D955702A3F5D1100FDD83F /* Build configuration list for PBXProject "OroMuscles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D9559D2A3F5D1300FDD83F /* Debug */,
+				75D9559E2A3F5D1300FDD83F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75D9559F2A3F5D1300FDD83F /* Build configuration list for PBXNativeTarget "OroMuscles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D955A02A3F5D1300FDD83F /* Debug */,
+				75D955A12A3F5D1300FDD83F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75D955A22A3F5D1300FDD83F /* Build configuration list for PBXNativeTarget "OroMusclesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D955A32A3F5D1300FDD83F /* Debug */,
+				75D955A42A3F5D1300FDD83F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75D955A52A3F5D1300FDD83F /* Build configuration list for PBXNativeTarget "OroMusclesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D955A62A3F5D1300FDD83F /* Debug */,
+				75D955A72A3F5D1300FDD83F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		75E37D382A618A4D0096AD88 /* XCRemoteSwiftPackageReference "Auth0" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/auth0/Auth0.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		75E37D392A618A4D0096AD88 /* Auth0 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 75E37D382A618A4D0096AD88 /* XCRemoteSwiftPackageReference "Auth0" */;
+			productName = Auth0;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 75D9556D2A3F5D1100FDD83F /* Project object */;
+}

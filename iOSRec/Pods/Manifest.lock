@@ -1,0 +1,34 @@
+PODS:
+  - Auth0 (2.4.0):
+    - JWTDecode (~> 3.1)
+    - SimpleKeychain (~> 1.1)
+  - Charts (4.1.0):
+    - Charts/Core (= 4.1.0)
+  - Charts/Core (4.1.0):
+    - SwiftAlgorithms (~> 1.0)
+  - JWTDecode (3.1.0)
+  - SimpleKeychain (1.1.0)
+  - SwiftAlgorithms (1.0.0)
+
+DEPENDENCIES:
+  - Auth0 (~> 2.4)
+  - Charts
+
+SPEC REPOS:
+  trunk:
+    - Auth0
+    - Charts
+    - JWTDecode
+    - SimpleKeychain
+    - SwiftAlgorithms
+
+SPEC CHECKSUMS:
+  Auth0: 7c454e679f19d160f1f32bf1e9fa095db19f8769
+  Charts: 354f86803d11d9c35de280587fef50d1af063978
+  JWTDecode: 3eaab1e06b6f4dcbdd6716aff09ba4c2104ca8b7
+  SimpleKeychain: f8707c8e97b38c6a6e687b17732afc9bcef06439
+  SwiftAlgorithms: 38dda4731d19027fdeee1125f973111bf3386b53
+
+PODFILE CHECKSUM: 9abed53c0ea6335c0195d87ee679941155869672
+
+COCOAPODS: 1.11.3

@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B8C45098-7FDE-4D9C-BE71-2237439352BA"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FE8B8832-E10A-4C4D-9376-35C7ACC26F95"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OroMuscles/Workout.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "187"
+            endingLineNumber = "187">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A355B128-BEC7-492C-A071-FF42E097B220"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OroMuscles/SetupTrainingPlanFinished.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
+            landmarkName = "TableTextFieldUpdated(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A7E71940-CA70-4321-9ECE-12D1007E35AE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OroMuscles/BLE/picoBluePeripheral.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "183"
+            endingLineNumber = "183"
+            landmarkName = "peripheral(_:didUpdateValueFor:error:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A7E71940-CA70-4321-9ECE-12D1007E35AE - b041da01a1cef3d6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OroMuscles.picoBluePeripheral.peripheral(_: __C.CBPeripheral, didUpdateValueFor: __C.CBCharacteristic, error: Swift.Optional&lt;Swift.Error&gt;) -&gt; ()"
+                  moduleName = "OroMuscles"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/elizabethevans/oromuscles/iOSRec/OroMuscles/BLE/picoBluePeripheral.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "184"
+                  endingLineNumber = "184"
+                  offsetFromSymbolStart = "4072">
+               </Location>
+               <Location
+                  uuid = "A7E71940-CA70-4321-9ECE-12D1007E35AE - b041da01a1cef3d6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OroMuscles.picoBluePeripheral.peripheral(_: __C.CBPeripheral, didUpdateValueFor: __C.CBCharacteristic, error: Swift.Optional&lt;Swift.Error&gt;) -&gt; ()"
+                  moduleName = "OroMuscles"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/elizabethevans/oromuscles/iOSRec/OroMuscles/BLE/picoBluePeripheral.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "184"
+                  endingLineNumber = "184"
+                  offsetFromSymbolStart = "3960">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "43E6C7A8-3BE2-4770-ACDA-5FA2617399B7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OroMuscles/BLE/picoBluePeripheral.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "189"
+            endingLineNumber = "189"
+            landmarkName = "peripheral(_:didUpdateValueFor:error:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "43E6C7A8-3BE2-4770-ACDA-5FA2617399B7 - b041da01a1cef490"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OroMuscles.picoBluePeripheral.peripheral(_: __C.CBPeripheral, didUpdateValueFor: __C.CBCharacteristic, error: Swift.Optional&lt;Swift.Error&gt;) -&gt; ()"
+                  moduleName = "OroMuscles"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/elizabethevans/oromuscles/iOSRec/OroMuscles/BLE/picoBluePeripheral.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "190"
+                  endingLineNumber = "190"
+                  offsetFromSymbolStart = "4572">
+               </Location>
+               <Location
+                  uuid = "43E6C7A8-3BE2-4770-ACDA-5FA2617399B7 - b041da01a1cef490"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OroMuscles.picoBluePeripheral.peripheral(_: __C.CBPeripheral, didUpdateValueFor: __C.CBCharacteristic, error: Swift.Optional&lt;Swift.Error&gt;) -&gt; ()"
+                  moduleName = "OroMuscles"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/elizabethevans/oromuscles/iOSRec/OroMuscles/BLE/picoBluePeripheral.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "190"
+                  endingLineNumber = "190"
+                  offsetFromSymbolStart = "4552">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "05AD2921-DDA1-40DB-9C08-A00EE9FD40F0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OroMuscles/BLE/picoBluePeripheral.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "188"
+            endingLineNumber = "188"
+            landmarkName = "peripheral(_:didUpdateValueFor:error:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "95343F64-3D16-45EC-B1B8-718687711655"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OroMuscles/BLE/BLENextViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
+            landmarkName = "updateDataRecive(Data:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "95343F64-3D16-45EC-B1B8-718687711655 - 386e69b52fb9b22f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OroMuscles.BLENextViewController.updateDataRecive(Data: Foundation.Data) -&gt; ()"
+                  moduleName = "OroMuscles"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/elizabethevans/oromuscles/iOSRec/OroMuscles/BLE/BLENextViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "126"
+                  endingLineNumber = "126"
+                  offsetFromSymbolStart = "280">
+               </Location>
+               <Location
+                  uuid = "95343F64-3D16-45EC-B1B8-718687711655 - 386e69b52fb9b22f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OroMuscles.BLENextViewController.updateDataRecive(Data: Foundation.Data) -&gt; ()"
+                  moduleName = "OroMuscles"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/elizabethevans/oromuscles/iOSRec/OroMuscles/BLE/BLENextViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "126"
+                  endingLineNumber = "126"
+                  offsetFromSymbolStart = "228">
+               </Location>
+               <Location
+                  uuid = "95343F64-3D16-45EC-B1B8-718687711655 - 386e69b52fb9b24a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OroMuscles.BLENextViewController.updateDataRecive(Data: Foundation.Data) -&gt; ()"
+                  moduleName = "OroMuscles"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/elizabethevans/oromuscles/iOSRec/OroMuscles/BLE/BLENextViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "129"
+                  endingLineNumber = "129"
+                  offsetFromSymbolStart = "228">
+               </Location>
+               <Location
+                  uuid = "95343F64-3D16-45EC-B1B8-718687711655 - 386e69b52fb9b24a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OroMuscles.BLENextViewController.updateDataRecive(Data: Foundation.Data) -&gt; ()"
+                  moduleName = "OroMuscles"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/elizabethevans/oromuscles/iOSRec/OroMuscles/BLE/BLENextViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "129"
+                  endingLineNumber = "129"
+                  offsetFromSymbolStart = "158">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C89E13D2-D08D-4BA3-AEB3-6F39144074AF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OroMuscles/BLE/picoBluePeripheral.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "162"
+            endingLineNumber = "162"
+            landmarkName = "peripheral(_:didUpdateValueFor:error:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C3321D24-5F05-4A45-B26D-147A658E813A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OroMuscles/Objects/SessionInfo.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
+            landmarkName = "postRecordings()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "33666960-70B7-4F66-BA52-24D8015EAC8F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OroMuscles/ViewControllers/DataAnalytics.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "203"
+            endingLineNumber = "203"
+            landmarkName = "drawOnMuscleIMAGE()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "33666960-70B7-4F66-BA52-24D8015EAC8F - 83a252c6b961a093"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OroMuscles.DataAnalytics.drawOnMuscleIMAGE() -&gt; __C.UIImage"
+                  moduleName = "OroMuscles"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/elizabethevans/oromuscles/iOSRec/OroMuscles/ViewControllers/DataAnalytics.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "124"
+                  endingLineNumber = "124"
+                  offsetFromSymbolStart = "3528">
+               </Location>
+               <Location
+                  uuid = "33666960-70B7-4F66-BA52-24D8015EAC8F - 83a252c6b961a174"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OroMuscles.DataAnalytics.drawOnMuscleIMAGE() -&gt; __C.UIImage"
+                  moduleName = "OroMuscles"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/elizabethevans/oromuscles/iOSRec/OroMuscles/ViewControllers/DataAnalytics.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "121"
+                  endingLineNumber = "121"
+                  offsetFromSymbolStart = "2856">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B43F44C7-A791-4627-86AF-4776271C6985"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OroMuscles/ViewControllers/DataAnalytics.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "181"
+            endingLineNumber = "181"
+            landmarkName = "drawOnMuscleIMAGE()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D7603917-3A63-4864-A575-19CAA487338F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OroMuscles/ViewControllers/SetupConnection.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "110"
+            endingLineNumber = "110"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9804FF97-F8A7-469C-A82B-AF16FBD4E2C7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OroMuscles/ViewControllers/SetupConnection.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "tableView(_:didSelectRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "202943C1-8481-4898-8AB4-969B493D1B28"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OroMuscles/ViewControllers/SetupBLEDeviceList.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "centralManager(_:didDiscover:advertisementData:rssi:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "202943C1-8481-4898-8AB4-969B493D1B28 - 7bc723739b64fd5b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OroMuscles.SetupBLEDeviceList.centralManager(_: __C.CBCentralManager, didDiscover: __C.CBPeripheral, advertisementData: Swift.Dictionary&lt;Swift.String, Any&gt;, rssi: __C.NSNumber) -&gt; ()"
+                  moduleName = "OroMuscles"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/elizabethevans/oromuscles/iOSRec/OroMuscles/ViewControllers/SetupBLEDeviceList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "920">
+               </Location>
+               <Location
+                  uuid = "202943C1-8481-4898-8AB4-969B493D1B28 - 7bc723739b64fd3a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OroMuscles.SetupBLEDeviceList.centralManager(_: __C.CBCentralManager, didDiscover: __C.CBPeripheral, advertisementData: Swift.Dictionary&lt;Swift.String, Any&gt;, rssi: __C.NSNumber) -&gt; ()"
+                  moduleName = "OroMuscles"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/elizabethevans/oromuscles/iOSRec/OroMuscles/ViewControllers/SetupBLEDeviceList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "1098">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
